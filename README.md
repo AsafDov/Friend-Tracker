@@ -9,10 +9,10 @@ Features:
 
 
 --------------
-###**Objects:**
+**Objects:**
 
 
-1. user -
+*user-*
 
     Fields:
       1. name
@@ -25,12 +25,12 @@ Features:
       3. meet_friend(friend, meeting)
       4. elapesd_days(friend)
 
-2. friend - 
+*friend-*
 
     Fields:
       1. name
       2. last_name
-      3. timeline(<list of meetings>)
+      3. timeline <list of meetings>
       4. id
 
     Functions:
@@ -39,7 +39,7 @@ Features:
       3. get_elapsed_days()
       4. get_last_meeting()
   
-3. meeting - 
+*meeting-*
 
     Fields:
       1. location
