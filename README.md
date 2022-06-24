@@ -13,6 +13,7 @@ Features:
 
 
 1. user -
+
     Fields:
       1. name
       2. last_name
@@ -25,6 +26,7 @@ Features:
       4. elapesd_days(friend)
 
 2. friend - 
+
     Fields:
       1. name
       2. last_name
@@ -38,6 +40,7 @@ Features:
       4. get_last_meeting()
   
 3. meeting - 
+
     Fields:
       1. location
       2. time
