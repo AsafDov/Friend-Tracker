@@ -1,27 +1,34 @@
+// Whenever a new user is created, he gets a csv file which holds all
+// of his friends in the following format
+// id,name,last
 
 class user {
-    user(name, last_name){
+
+    static id = 1;
+
+    constructor(name, last) {
         this.name = name;
-        this.last_name = last_name;
+        this.last = last;
+        this.userid = user.id;
+        this.friends = [];
+        user.id++;
+ 
+        console.log("My name is " + this.name + " " + this.last);
     }
 
-}
+    add_friend("name", "last", "meeting") {
+        let new_friend = new friend(name, last, meeting)
+        this.friends.appened(new_friend);
+    };
+    //elapesd_days(friend) {
+    //   return friend.days_since_last_meeting();
+    //}
+    //last_meeting(friend) {
+    //    return friend.get_last_meeting();
+    //}
 
-class user {
-    user(name, last){
+    //meet_friend(friend, date, time, location) {
 
-    }
-
-    add_friend();
-    elapesd_days(friend) {
-       return friend.days_since_last_meeting();
-    }
-    last_meeting(friend) {
-        return friend.get_last_meeting();
-    }
-
-    meet_friend(friend, date, time, location) {
-
-    }
+    //}
 
 }
