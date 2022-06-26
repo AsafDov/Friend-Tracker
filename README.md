@@ -50,6 +50,7 @@ Features:
 
     Functions:
       1. add_note(note)
+      2. note my face
   
   
   
