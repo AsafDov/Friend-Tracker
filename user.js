@@ -13,22 +13,23 @@ class user {
         this.friends = [];
         user.id++;
  
-        console.log("My name is " + this.name + " " + this.last);
+        console.log("New user - " + this.name + " " + this.last);
     }
 
-    add_friend("name", "last", "meeting") {
-        let new_friend = new friend(name, last, meeting)
+    add_friend(name, last, last) {
+        let new_friend = new friend(name, last, meeting);
         this.friends.appened(new_friend);
-    };
-    //elapesd_days(friend) {
-    //   return friend.days_since_last_meeting();
-    //}
-    //last_meeting(friend) {
-    //    return friend.get_last_meeting();
-    //}
+    }
+    elapesd_days(friend) {
+       return friend.days_since_last_meeting();
+    }
 
-    //meet_friend(friend, date, time, location) {
+    last_meeting(friend) {
+        return friend.get_last_meeting();
+    }
 
-    //}
+    meet_friend(friend, date, time, location) {
+        friend.add_meeting(date, time, location);
+    }
 
 }
