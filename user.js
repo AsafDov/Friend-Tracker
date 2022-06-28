@@ -15,11 +15,12 @@ class user {
  
         console.log("My name is " + this.name + " " + this.last);
     }
-
+/*
     add_friend("name", "last", "meeting") {
         let new_friend = new friend(name, last, meeting)
         this.friends.appened(new_friend);
     };
+    */
     //elapesd_days(friend) {
     //   return friend.days_since_last_meeting();
     //}
