@@ -16,8 +16,8 @@ class user {
         console.log("New user - " + this.name + " " + this.last);
     }
 
-    add_friend(name, last, last) {
-        let new_friend = new friend(name, last, meeting);
+    add_friend(name, last, date, location) {
+        let new_friend = new friend(name, last, date, location);
         this.friends.appened(new_friend);
     }
     elapesd_days(friend) {
@@ -29,7 +29,7 @@ class user {
     }
 
     // Calling add friend
-    meet_friend(friend, date, time, location) {
-        friend.add_meeting(date, time, location);
+    meet_friend(friend, date, location) {
+        friend.add_meeting(date, location);
     }
  }
