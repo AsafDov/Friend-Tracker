@@ -18,7 +18,7 @@ class user {
 
     add_friend(name, last, date, location) {
         let new_friend = new friend(name, last, date, location);
-        this.friends.appened(new_friend);
+        this.friends.push(new_friend);
     }
     elapesd_days(friend) {
        return friend.days_since_last_meeting();
