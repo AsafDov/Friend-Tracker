@@ -28,8 +28,8 @@ class user {
         return friend.get_last_meeting();
     }
 
+    // Calling add friend
     meet_friend(friend, date, time, location) {
         friend.add_meeting(date, time, location);
     }
-
-}
+ }
