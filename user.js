@@ -21,7 +21,10 @@ class user {
         this.friends.push(new_friend);
     }
     elapesd_days(friend) {
-       return friend.days_since_last_meeting();
+        console.log("we are in");
+       // let take_date = Object.entries(temp_friend[0]);
+        //console.log(take_date);
+      // return friend.days_since_last_meeting();
     }
 
     last_meeting(friend) {
